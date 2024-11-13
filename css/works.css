@@ -1,0 +1,118 @@
+/* 作品画像 */
+
+.works_img{
+    padding-top: 15%;
+    text-align:center;
+}
+
+.works_img img{  
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1024px){
+    .works_img img{
+        max-width: 750px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 767px){
+    .works_img img{
+        max-width: 310px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* タイトル以降のコンテナ */
+
+.works_container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .works_container{
+        max-width: 750px;
+        width: 100%;
+        margin: 0 auto;
+    } 
+}
+
+@media (max-width: 767px) {
+    .works_container{
+        width: 80%;
+        margin: 0 auto;
+    } 
+}
+
+
+/* 作品タイトル */
+
+@media (min-width:768px){
+    .works_title_br{
+        display: none;
+    }
+}
+
+.works_layout_content h1{
+    caret-color: #333333;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'noto sans jp';
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 767px){
+    .works_layout_content h1{
+        caret-color: #333333;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'noto sans jp';
+        margin-top: 60px;
+    }
+}
+
+/* 作品概要 */
+
+.works_layout2_content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    opacity: 1;
+    margin-bottom: 4px;
+}
+
+.works_contents{
+    padding: 10px 0 10px 0;
+}
+
+.works_text{
+    color: #787774;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'noto sans jp';
+    margin-bottom: 0;
+}
+
+.works_text a{
+    color:#787774;
+    text-decoration: none;
+}
+
+.works_text a :hover{
+    color: #787774;
+}
+
+.work_points{
+    color: #333333;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}

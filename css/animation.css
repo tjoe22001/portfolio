@@ -1,0 +1,40 @@
+/* フェードインのみ */
+.scrollAnim.ready {
+    opacity: 0;
+    transition: all .8s ease-in;
+}
+  .scrollAnim.ready.active {
+    opacity: 1;
+}
+
+/* フリップ */
+.scrollFlip.ready {
+    transform: rotateX(-180deg);
+}
+  .scrollFlip.ready.active {
+    transform: rotateX(0deg);
+}
+
+/* スケール */
+.scrollScale.ready {
+    transform: scale(0.8);
+}
+.scrollScale.ready.active {
+    transform: scale(1);
+}
+
+/* スライド（左から右） */
+.scrollSlideLtoR.ready {
+    transform: translateX(-80px);
+}
+.scrollSlideLtoR.ready.active {
+    transform: translateX(0);
+}
+
+/* スライド（下から上） */
+.scrollSlideBtoU.ready {
+    transform: translateY(80px);
+}
+.scrollSlideBtoU.ready.active {
+    transform: translateX(0);
+}
